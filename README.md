@@ -1,12 +1,29 @@
-# React + Vite
+# Spidr Interest Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React + Tailwind CSS form for the Spidr Design coding challenge. The form collects:
 
-Currently, two official plugins are available:
+- First Name
+- Last Name
+- Phone Number (auto-formatted)
+- Email Address (validated)
+- Air Fryer Cost Guess
+- 16-digit Secret Spidr PIN (auto-formatted)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Built With
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- Tailwind CSS
+- react-hook-form
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Deployment
+
+This app is deployed via GitHub Pages:
+
+🔗 [Live Demo](https://antiprysm.github.io/spidr-interest-form)
+
+## 📦 Local Development
+
+```bash
+npm install
+npm run dev
